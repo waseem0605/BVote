@@ -1,6 +1,6 @@
-# Vote: Secure E-Voting with Blockchain Technology
+# BVote: Secure E-Voting with Blockchain Technology
 
-![Vote Logo](vote_logo.png)
+![BVote Logo](vote_logo.png)
 
 Welcome to **BVote**, a cutting-edge e-voting platform powered by blockchain technology. With Vote, you can revolutionize the way elections are conducted, ensuring transparency, security, and accessibility like never before.
 
