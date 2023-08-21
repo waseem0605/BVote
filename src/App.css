@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.profile{
+  display: flex;
+  flex-direction: column;
+  margin:20px 40px 20px 20px;
+  padding: 5px;
+}
+
+.heading{
+  text-align: center;
+  margin: 10px;
+}
+
+.election{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin:10px;
+}
+.para{
+  margin:5px;
+}
+.wallet{
+  cursor: pointer;
+  border-radius: 12px;
+  background-color: green;
+  color:white;
+  padding: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: fit-content;
+}
+
+.flex-row{
+  display: flex;
+  flex-direction: row;
+}
+.wallet-add{
+  display: flex;
+  flex-direction: column;
+
+}
+.image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40%;
+}
+.btn{
+  cursor: pointer;
+  border-radius: 12px;
+  background-color: black;
+  color:white;
+  padding: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: fit-content;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
